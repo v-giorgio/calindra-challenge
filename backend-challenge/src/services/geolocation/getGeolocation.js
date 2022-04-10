@@ -2,21 +2,7 @@ require("dotenv").config();
 const fetch = require("node-fetch-commonjs");
 const apiKey = process.env.GEOLOCATION_API_KEY;
 
-const getCurrentLocation = () => {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition((position) => {
-      return {
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude,
-      };
-    });
-  } else {
-    return {
-      error: "Current geolocation not available",
-    };
-  }
-};
-
+/* create the params request to the geolocation api according to the data from the req.body */
 const getRequestPattern = async (locationData) => {
   const { street, number, neighborhood, city, state, zipcode } =
     await locationData;
@@ -42,6 +28,7 @@ const getGeolocation = async (locationData) => {
   const geolocationData = await response.json();
 
   const coords = {
+    address: geolocationData.results[0].formatted_address,
     latitude: geolocationData.results[0].geometry.location.lat,
     longitude: geolocationData.results[0].geometry.location.lng,
   };
@@ -50,7 +37,6 @@ const getGeolocation = async (locationData) => {
 };
 
 module.exports = {
-  getCurrentLocation,
   getGeolocation,
 };
 
