@@ -49,6 +49,11 @@ const getGeolocation = async (locationData) => {
   return coords;
 };
 
+module.exports = {
+  getCurrentLocation,
+  getGeolocation,
+};
+
 /* const response = getGeolocation({
   street: "Av. Rio Branco",
   number: "1",
