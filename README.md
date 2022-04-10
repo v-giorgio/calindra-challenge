@@ -301,7 +301,7 @@ O projeto consiste na criação de uma aplicação web que contenha um formulár
 
 ### Siga as etapas para a aplicação funcionar corretamente:
 
-#### 🟠 Na mesma pasta que foi clonada anteriormente, acesse agora a pasta `frontend-challenge-one`
+#### 🟢 Na mesma pasta que foi clonada anteriormente, acesse agora a pasta `frontend-challenge-one`
 
 ```
 cd frontend-challenge-one
@@ -309,7 +309,7 @@ cd frontend-challenge-one
 
 <br>
 
-#### 🟠 Execute o comando para instalar as dependências do projeto no frontend
+#### 🟢 Execute o comando para instalar as dependências do projeto no frontend
 
 ```
 npm install
@@ -317,7 +317,7 @@ npm install
 
 <br>
 
-#### 🟠 Rode a aplicação
+#### 🟢 Rode a aplicação
 
 ```
 npm start
@@ -364,7 +364,7 @@ O projeto consiste na criação de uma aplicação web totalmente responsiva que
 
 ### Siga as etapas para a aplicação funcionar corretamente:
 
-#### 🟠 Na mesma pasta que foi clonada anteriormente, acesse agora a pasta `frontend-challenge-two`
+#### 🟢 Na mesma pasta que foi clonada anteriormente, acesse agora a pasta `frontend-challenge-two`
 
 ```
 cd frontend-challenge-two
@@ -372,7 +372,7 @@ cd frontend-challenge-two
 
 <br>
 
-#### 🟠 Execute o comando para instalar as dependências do projeto no frontend
+#### 🟢 Execute o comando para instalar as dependências do projeto no frontend
 
 ```
 npm install
@@ -380,7 +380,7 @@ npm install
 
 <br>
 
-#### 🟠 Rode a aplicação
+#### 🟢 Rode a aplicação
 
 ```
 npm start
