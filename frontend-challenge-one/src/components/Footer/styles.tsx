@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const FooterSection = styled.nav`
-  margin-top: 50px;
+  margin-top: 10%;
   padding: 0;
   width: 100%;
   display: flex;
-  bottom: 0;
   justify-content: center;
   align-items: center;
   padding-top: 1.5%;
